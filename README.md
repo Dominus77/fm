@@ -44,7 +44,7 @@ Url::to(['fm/default/index']); // for Web Page
 Url::to('/fm/elfinder'); // for TinyMCE
 ```
 
-Configured in:
+Configured Elfinder in:
 ```
 modules\fm\Module.php
 ```
