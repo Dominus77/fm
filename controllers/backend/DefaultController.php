@@ -12,7 +12,7 @@ use modules\fm\Module;
  */
 class DefaultController extends Controller
 {
-    public function behaviors()
+    /*public function behaviors()
     {
         return [
             'access' => [
@@ -25,7 +25,7 @@ class DefaultController extends Controller
                 ],
             ],
         ];
-    }
+    }*/
 
     /**
      * Renders the index view for the module

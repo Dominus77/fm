@@ -7,6 +7,11 @@ File Manager to yii-advanced-start
    result: /modules/fm
 2. Connect the module in the standard way
 
-```
+
+Link:
 
 ```
+Url::to(['fm/default/index']); for Web Page
+Url::to('/fm/elfinder'); // for TinyMCE
+```
+
