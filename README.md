@@ -48,7 +48,7 @@ Configured in:
 modules\fm\Module.php
 ```
 
-Integration with TinyMCE
+Integration with [dominus77/yii2-tinymce-widget](https://github.com/Dominus77/yii2-tinymce-widget)
 
 ```
 $form->field($model, 'text')->widget(\dominus77\tinymce\TinyMce::className(), [
