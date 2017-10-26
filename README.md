@@ -48,4 +48,25 @@ Configured in:
 modules\fm\Module.php
 ```
 
+Integration with TinyMCE
+
+```
+$form->field($model, 'text')->widget(\dominus77\tinymce\TinyMce::className(), [
+    'clientOptions' => [
+        //...
+        /** @see https://www.tinymce.com/docs/configure/file-image-upload/#file_picker_types */
+        //'file_picker_types' => 'file image media',
+    ],
+    'fileManager' => [
+        'class' => \dominus77\tinymce\components\MihaildevElFinder::className(),
+        'controller' => Url::to('/fm/elfinder'), // << Link to module fm
+        'title' => \modules\fm\Module::t('module', 'File Manager'),
+        //'width' => 900,
+        //'height' => 600,
+        'resizable' => 'yes',
+    ],
+    //...
+])
+```
+
 
