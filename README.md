@@ -3,8 +3,7 @@ Module Elfinder
 File Manager for yii-advanced-start
 ---
 
-1. Copy to the modules folder
-   result: /modules/fm
+1. Copy to your project in the modules folder
 2. Connect the module in the standard way
 
 common/config/main.php
