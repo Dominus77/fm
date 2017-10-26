@@ -1,6 +1,6 @@
 Module Elfinder
 ===============================
-File Manager for yii-advanced-start
+File Manager for [yii2-advanced-start](https://github.com/Dominus77/yii2-advanced-start)
 ---
 
 1. Copy to your project in the modules folder
