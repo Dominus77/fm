@@ -1,6 +1,6 @@
-Module Elfinder
+Module FM
 ===============================
-File Manager for [yii2-advanced-start](https://github.com/Dominus77/yii2-advanced-start)
+Elfinder File Manager for [yii2-advanced-start](https://github.com/Dominus77/yii2-advanced-start)
 ---
 
 1. Install [mihaildev/yii2-elfinder](https://github.com/MihailDev/yii2-elfinder) extension.
