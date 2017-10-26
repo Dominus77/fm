@@ -13,7 +13,7 @@ use modules\fm\Module;
  */
 class DefaultController extends Controller
 {
-    /*public function behaviors()
+    public function behaviors()
     {
         return [
             'access' => [
@@ -21,20 +21,20 @@ class DefaultController extends Controller
                 'rules' => [
                     [
                         'allow' => true,
-                        'roles' => ['fileManager'],
+                        'roles' => ['@'], // RBAC ['fileManager']
                     ]
                 ],
             ],
         ];
-    }*/
+    }
 
     /**
      * @throws NotFoundHttpException
      */
     public function actionIndex()
     {
-        throw new NotFoundHttpException(Module::t('module', 'Page not found.'));
-        //return $this->render('index');
+        //throw new NotFoundHttpException(Module::t('module', 'Page not found.'));
+        return $this->render('index');
     }
 
 }
