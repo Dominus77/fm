@@ -44,9 +44,8 @@ Url::to(['fm/default/index']); // for Web Page
 Url::to('/fm/elfinder'); // for TinyMCE
 ```
 
-Configured Elfinder for [dominus77/yii2-tinymce-widget](https://github.com/Dominus77/yii2-tinymce-widget) in: 
-[modules\fm\Module.php](https://github.com/Dominus77/fm/blob/master/Module.php)
-
+Configured Elfinder for [dominus77/yii2-tinymce-widget](https://github.com/Dominus77/yii2-tinymce-widget) in:
+[Module.php](https://github.com/Dominus77/fm/blob/master/Module.php)
 
 Integration with [dominus77/yii2-tinymce-widget](https://github.com/Dominus77/yii2-tinymce-widget)
 
