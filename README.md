@@ -6,7 +6,7 @@ File Manager for [yii2-advanced-start](https://github.com/Dominus77/yii2-advance
 1. Copy to your project in the modules folder fm
 2. Connect the module in the standard way
 
-3. Install [mihaildev/yii2-elfinder](https://github.com/MihailDev/yii2-elfinder) extension.
+Install [mihaildev/yii2-elfinder](https://github.com/MihailDev/yii2-elfinder) extension.
 
 Either run
 ```
