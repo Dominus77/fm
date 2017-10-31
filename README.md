@@ -36,6 +36,13 @@ frontend/config/main.php
     'modules\fm\Bootstrap',
 ],
 ```
+console/config/main.php
+```
+'bootstrap' => [
+    //...
+    'modules\fm\Bootstrap',
+],
+```
 
 Link:
 
